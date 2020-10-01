@@ -1,0 +1,16 @@
+{
+  "name": "repo-coursera",
+  "version": "1.0.0",
+  "description": "Primeras armas nodejs",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://VallejoSe@bitbucket.org/VallejoSe/repo-coursera.git"
+  },
+  "author": "Sebastian Vallejo",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/VallejoSe/repo-coursera#readme"
+}
