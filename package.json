@@ -4,6 +4,7 @@
   "description": "Primeras armas nodejs",
   "main": "index.html",
   "scripts": {
+    "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -12,5 +13,8 @@
   },
   "author": "Sebastian Vallejo",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/VallejoSe/repo-coursera#readme"
+  "homepage": "https://bitbucket.org/VallejoSe/repo-coursera#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
 }
