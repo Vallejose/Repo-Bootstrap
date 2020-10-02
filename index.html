@@ -7,7 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-
+    <link rel="stylesheet" href="css/main.css">
     <title>Guia hoteles</title>
   </head>
   <body>
@@ -30,19 +30,108 @@
         <p>Este es el cuerpo del tercer parrafo</p>
     </div>  
     </div>
-    <div class="row">
-        <div class="col">
-        <h3>Esto va a ser una lista de productos</h3>
-        <ul>
-            <li>Product 1</li>
-            <li>Product 2</li>
-            <li>Product 3</li>
-            <li>Product 4</li>
-            <li>Product 5</li>
-        </ul>
+    <hr>
+    <div class="d-flex flex-wrap">
+        <div class="card-producto d-flex flex-column justify-content-between">
+            <div>
+            <h2>Producto 1</h2>
+            <p>Esto es el primer producto</p>
+        </div>
+        <div>
+            <button class="btn btn-primary btn-reserva" type="button">Ingresar</button>
+        </div>
+        </div> 
+        <div class="card-producto d-flex flex-column justify-content-between">
+            <div>
+            <h2>Producto 2</h2>
+            <p>Este es el segundo producto</p>
+        </div>
+        <div>
+            <button class="btn btn-warning btn-reserva" type="button">Ingresar</button>
+        </div> 
+    </div>
+        <div class="card-producto d-flex flex-column justify-content-between">
+            <div>
+            <h2>Producto 3</h2>
+            <p>Este es el tercer producto</p>
+        </div>
+        <div>
+            <button class="btn btn-success btn-reserva" type="button">Ingresar</button>
+        </div> 
+    </div>
+        <div class="card-producto d-flex flex-column justify-content-between">
+            <div>
+            <h2>Producto 4</h2>
+            <p>Este es el cuarto producto</p>
+        </div>
+        <div>
+            <button class="btn btn-danger btn-reserva" type="button">Ingresar</button>
+        </div> 
+    </div>
+        <div class="card-producto d-flex flex-column justify-content-between">
+            <div>
+            <h2>Producto 5</h2>
+            <p>Esto es el primer producto</p>
+        </div>
+        <div>
+            <button class="btn btn-primary btn-reserva" type="button">Ingresar</button>
+        </div> 
+    </div>
+        <div class="card-producto d-flex flex-column justify-content-between">
+            <div>
+            <h2>Producto 6</h2>
+            <p>Este es el segundo producto y agrego mas texto por que quiero ver que pasa
+                a ver si quedan de diferente tamaño respecto a las demas columnas
+            </p>
+        </div>
+        <div>
+            <button class="btn btn-warning btn-reserva" type="button">Ingresar</button>
+        </div> 
+    </div>
+        <div class="card-producto d-flex flex-column justify-content-between">
+            <div>
+            <h2>Producto 7</h2>
+            <p>Este es el tercer producto</p>
+        </div>
+        <div>
+            <button class="btn btn-success btn-reserva" type="button">Ingresar</button>
+        </div> 
+    </div>
+        <div class="card-producto d-flex flex-column justify-content-between">
+            <div>
+            <h2>Producto 8</h2>
+            <p>Este es el cuarto producto y este como esta en el ultimo lugar y en otra fila aparte, agrego mas texto para ver como se comporta yq que es diferente a los otros botones que estan arriba</p>
+        </div>
+        <div>
+            <button class="btn btn-danger btn-reserva" type="button">Ingresar</button>
+        </div> 
+    </div>
     </div>
 </div>
    </div>
+
+   <footer class="footer">
+       <div class="row">
+       <div class="col-4 d-flex flex-column footer-sites">
+           <a href="http://www.google.com">Google</a>
+           <a href="http://www.facebook.com">Facebook</a>
+           <a href="http://www.Instagram.com">Instagram</a>
+           <a href="http://www.twitter.com">Twitter</a>
+       </div>
+       <div class="col-4 d-flex flex-column align-items-center">
+           <h3>Informacion</h3>
+          <p> Direccion</p>
+           <p>Telefono</p>
+           <p>Email</p>
+       </div>
+       <div class="col-4 d-flex flex-column align-items-end footer-sites">
+        <a href="http://www.google.com">Nosotros</a>
+        <a href="http://www.facebook.com">Ellos</a>
+        <a href="http://www.Instagram.com">Alguien mas</a>
+        <a href="http://www.twitter.com">Nadie</a>
+       </div>
+    </div>
+   </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
