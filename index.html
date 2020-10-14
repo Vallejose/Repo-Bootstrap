@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -8,90 +9,114 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
-    <title>Guia hoteles</title>
-  </head>
-  <body>
-   <div class="container">
-<div class="jumbotron text-center">
-    <h1>Esto es un titulo</h1>
-    <p>Y probemos que onda el cuerpo del mismo</p>
-</div>
-<div class="row">
-    <div class="col">
-        <h2>Parrafo 1</h2>
-        <p>Esti va a ser el cuerpo del primer parrafo</p>
-    </div>
-    <div class="col">
-        <h2>Segundo parrafo</h2>
-        <p>Este va a ser el cuerpo del segundo parrafo</p>
-    </div>
-    <div class="col">
-        <h2>Tercer parrafo</h2>
-        <p>Este es el cuerpo del tercer parrafo</p>
-    </div>  
-    </div>
-    <hr>
-     <div class="d-flex flex-wrap">
-        <div class="card-producto d-flex flex-column justify-content-between">
-            <div>
-            <h2>Producto 1</h2>
-            <p>Esto es el primer producto</p>
+    <title>Catalogo de productos</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">productos</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportColapse" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportColapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Nosotros</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Precios</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Terminos y condiciones</a></li>
+                <li class="nav-item"><a class="nav-link" href="#"></a>Contacto</li>
+            </ul>
         </div>
-        <div>
-            <button class="btn btn-primary btn-reserva" type="button">Ingresar</button>
-        </div>
-        </div> 
-        <div class="card-producto d-flex flex-column justify-content-between">
-            <div>
-            <h2>Producto 2</h2>
-            <p>Este es el segundo producto</p>
-        </div>
-        <div>
-            <button class="btn btn-warning btn-reserva" type="button">Ingresar</button>
-        </div> 
-    </div>
-        <div class="card-producto d-flex flex-column justify-content-between">
-            <div>
-            <h2>Producto 3</h2>
-            <p>Este es el tercer producto</p>
-        </div>
-        <div>
-            <button class="btn btn-success btn-reserva" type="button">Ingresar</button>
-        </div> 
+    </nav>
+
+    <div class="jumbotron text-center">
+        <h1>Alimentos caceros</h1>
+        <p>Hechos con las materias primas de mejor calidad</p>
     </div>
 
-    </div>
-    </div>
-</div>
-   </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2>¿Quienes somos?</h2>
+                <p>Somos un grupo de amigos dedicados a la cocina que busca seguir creciendo y compartiendo con sus
+                    clientes </p>
+            </div>
+            <div class="col">
+                <h2>¿de donde sosmos?</h2>
+                <p>Nosotros nos encontramos en Uruguay, en su capital montevideo; mas precisamente en el bario Reducto.
+                </p>
+            </div>
+            <div class="col">
+                <h2>¿Donde nos pueden encontrar?</h2>
+                <p>Hasta el momento solo tenemos e commerse, tanto aqui, como en Instagram o Facebook</p>
+            </div>
+        </div>
+        <hr>
+        <div class="d-flex flex-wrap">
+            <div class="card-producto d-flex flex-column justify-content-between">
+                <div>
+                    <h2>Sorrentinos</h2>
+                    <p>Puedes elegir entre varios Rellenos y tipos de masa.</p>
+                </div>
+                <div>
+                    <button class="btn btn-primary btn-reserva" type="button">Ingresar</button>
+                </div>
+            </div>
+            <div class="card-producto d-flex flex-column justify-content-between">
+                <div>
+                    <h2>Alfajores</h2>
+                    <p>Ideales para Meriendas o desayunos mas ricos</p>
+                </div>
+                <div>
+                    <button class="btn btn-warning btn-reserva" type="button">Ingresar</button>
+                </div>
+            </div>
+            <div class="card-producto d-flex flex-column justify-content-between">
+                <div>
+                    <h2>Tartas dulces</h2>
+                    <p>Los mejores postres, adaptandonos a cualquier ocación.</p>
+                </div>
+                <div>
+                    <button class="btn btn-success btn-reserva" type="button">Ingresar</button>
+                </div>
+            </div>
 
-   <footer class="footer">
-       <div class="row">
-       <div class="col-4 d-flex flex-column footer-sites">
-           <a href="http://www.google.com">Google</a>
-           <a href="http://www.facebook.com">Facebook</a>
-           <a href="http://www.Instagram.com">Instagram</a>
-           <a href="http://www.twitter.com">Twitter</a>
-       </div>
-       <div class="col-4 d-flex flex-column align-items-center">
-           <h3>Informacion</h3>
-          <p> Direccion</p>
-           <p>Telefono</p>
-           <p>Email</p>
-       </div>
-       <div class="col-4 d-flex flex-column align-items-end footer-sites">
-        <a href="http://www.google.com">Nosotros</a>
-        <a href="http://www.facebook.com">Ellos</a>
-        <a href="http://www.Instagram.com">Alguien mas</a>
-        <a href="http://www.twitter.com">Nadie</a>
-       </div>
+        </div>
     </div>
-   </footer>
+    </div>
+    </div>
+
+    <footer class="footer">
+        <div class="row">
+            <div class="col-4 d-flex flex-column footer-sites">
+                <a href="http://www.google.com">Google</a>
+                <a href="http://www.facebook.com">Facebook</a>
+                <a href="http://www.Instagram.com">Instagram</a>
+                <a href="http://www.twitter.com">Twitter</a>
+            </div>
+            <div class="col-4 d-flex flex-column align-items-center">
+                <address>
+                    <h3>Pais</h3>
+                    <p> Region, Direccion</p>
+                    <p>Telefono</p>
+                    <p>Email</p>
+                </address>
+            </div>
+            <div class="col-4 d-flex flex-column align-items-end footer-sites">
+                <a href="http://www.google.com">Nosotros</a>
+                <a href="http://www.facebook.com">Ellos</a>
+                <a href="http://www.Instagram.com">Alguien mas</a>
+                <a href="http://www.twitter.com">Nadie</a>
+            </div>
+        </div>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/popper.js/dist/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" ></script>
-  </body>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
 </html>

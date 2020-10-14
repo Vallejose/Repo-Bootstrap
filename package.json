@@ -1,26 +1,19 @@
 {
-  "name": "repo-coursera",
+  "name": "repo-bootstrap",
   "version": "1.0.0",
-  "description": "Primeras armas nodejs",
+  "description": "Coursera Bootstra",
   "main": "index.html",
   "scripts": {
-    "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://VallejoSe@bitbucket.org/VallejoSe/repo-coursera.git"
+    "url": "git+https://github.com/Vallejose/Repo-Bootstrap.git"
   },
   "author": "Sebastian Vallejo",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/VallejoSe/repo-coursera#readme",
-  "devDependencies": {
-    "lite-server": "^2.5.4"
+  "bugs": {
+    "url": "https://github.com/Vallejose/Repo-Bootstrap/issues"
   },
-  "dependencies": {
-    "bootstrap": "^4.5.2",
-    "jquery": "^3.5.1",
-    "popper": "^1.0.1",
-    "popper.js": "^1.16.1"
-  }
+  "homepage": "https://github.com/Vallejose/Repo-Bootstrap#readme"
 }
