@@ -6,6 +6,7 @@
 }
 
 .footer{
+    color: rgba(255, 255, 255, 0.753);
     padding: 10px 10px 0 10px;
     background-color:black;
     margin-bottom: 0px;
@@ -24,4 +25,8 @@ width: 100%;
 
 .footer-sites{
     padding: 20px;
+}
+
+.footer-addrress-icon{
+    padding-right: 10px;
 }
