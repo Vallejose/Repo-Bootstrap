@@ -1,32 +1,30 @@
-.jumbotron{
+.jumbotron {
     background-color: crimson;
     margin-top: 10px;
-    
-    
 }
 
-.footer{
+.footer {
     color: rgba(255, 255, 255, 0.753);
     padding: 10px 10px 0 10px;
-    background-color:black;
+    background-color: black;
     margin-bottom: 0px;
     margin-top: 20px;
 }
-.card-producto{
-    flex: 1 150px;
-    padding: 2px 5px 5px 2px;
+
+.card-producto {
+    flex: 1 200px;
     margin-top: 15px;
 }
 
-.btn-reserva{
-width: 100%;
-
+.btn-reserva {
+    width: 100%;
+    border-radius: 0px;
 }
 
-.footer-sites{
+.footer-sites {
     padding: 20px;
 }
 
-.footer-addrress-icon{
+.footer-addrress-icon {
     padding-right: 10px;
 }
