@@ -46,58 +46,103 @@
             </ol>
         </nav>
 
-        <div class="table-responsive">
-            <table class="table table-striped">
-                <thead class="thead-dark">
-                    <th>Calidad</th>
-                    <th>Porcion</th>
-                    <th>Por kilo</th>
-                    <th>Por docena</th>
-                    <th>Unidad</th>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><span class="oi oi-star"></span></td>
-                        <td>$100</td>
-                        <td>$200</td>
-                        <td>$350</td>
-                        <td>$500</td>
-                    </tr>
-                    <tr>
-                        <td><span class="oi oi-star"></span>
-                            <span class="oi oi-star"></span>
-                            <span class="oi oi-star"></span>
-                            <span class="oi oi-star"></span>
-                            <span class="oi oi-star"></span></td>
-                        <td>$100</td>
-                        <td>$200</td>
-                        <td>$350</td>
-                        <td>$500</td>
-                    </tr>
-                    <tr>
-                        <td><span class="oi oi-star"></span>
-                            <span class="oi oi-star"></span></td>
-                        <td>$10</td>
-                        <td>$20</td>
-                        <td>$35</td>
-                        <td>$50</td>
-                    </tr>
-                </tbody>
-            </table>
+        <ul class="nav nav-pills" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="compara-tab" data-toggle="tab" href="#compara" role="pill" aria-controls="compra" aria-selected="true">Compara</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="tarjetas-tab" data-toggle="tab" href="#tarjetas" role="pill" aria-controls="compra" aria-selected="false">Tarjetas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="comentarios-tab" data-toggle="tab" href="#comentarios" role="pill" aria-controls="comentarios" aria-selected="false">comentarios</a>
+            </li>
+        </ul>
+
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="compara" role="tabpanel" aria-labelledby="compra-tab">
+                <div class="table-responsive">
+                    <div class="table table-striped">
+
+                        <div class="table-responsive">
+                            <table class="table table-striped">
+                                <thead class="thead-dark">
+                                    <th>Calidad</th>
+                                    <th>Porcion</th>
+                                    <th>Por kilo</th>
+                                    <th>Por docena</th>
+                                    <th>Unidad</th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><span class="oi oi-star"></span></td>
+                                        <td>$100</td>
+                                        <td>$200</td>
+                                        <td>$350</td>
+                                        <td>$500</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="oi oi-star"></span>
+                                            <span class="oi oi-star"></span>
+                                            <span class="oi oi-star"></span>
+                                            <span class="oi oi-star"></span>
+                                            <span class="oi oi-star"></span></td>
+                                        <td>$100</td>
+                                        <td>$200</td>
+                                        <td>$350</td>
+                                        <td>$500</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="oi oi-star"></span>
+                                            <span class="oi oi-star"></span></td>
+                                        <td>$10</td>
+                                        <td>$20</td>
+                                        <td>$35</td>
+                                        <td>$50</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade show active" id="tarjetas" role="tabpanel" aria-labelledby="tarjetas-tab">
+                <div class="table-responsive">
+                    <div class="table table-striped">
+
+
+                        <div class="d-flex justify-content-center">
+                            <div class="card" style="width: 18rem;">
+                                <div class="card-header">
+                                    Tarjetas aceptadas
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Tarjeta debito</li>
+                                    <li class="list-group-item">Tarjeta credito</li>
+                                    <li class="list-group-item">Tarjeta black</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade show active" id="comentarios" role="tabpanel" aria-labelledby="comentarios-tab">
+                <div class="table-responsive">
+                    <div class="table table-striped text-center mt-2">
+                        <h4>Aun no hay comentarios.</h4>
+
+                    </div>
+                </div>
+            </div>
+
         </div>
 
-        <div class="d-flex justify-content-center">
-            <div class="card" style="width: 18rem;">
-                <div class="card-header">
-                    Tarjetas aceptadas
-                </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Tarjeta debito</li>
-                    <li class="list-group-item">Tarjeta credito</li>
-                    <li class="list-group-item">Tarjeta black</li>
-                </ul>
-            </div>
-        </div>
+
+
+
 
     </div>
 
