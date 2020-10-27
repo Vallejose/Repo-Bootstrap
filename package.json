@@ -1,29 +1,31 @@
 {
-  "name": "repo-bootstrap",
-  "version": "1.0.0",
-  "description": "Coursera Bootstra",
-  "main": "index.html",
-  "scripts": {
-    "dev": "lite-server",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Vallejose/Repo-Bootstrap.git"
-  },
-  "author": "Sebastian Vallejo",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Vallejose/Repo-Bootstrap/issues"
-  },
-  "homepage": "https://github.com/Vallejose/Repo-Bootstrap#readme",
-  "devDependencies": {
-    "lite-server": "^2.5.4"
-  },
-  "dependencies": {
-    "bootstrap": "^4.5.3",
-    "jquery": "^3.5.1",
-    "open-iconic": "^1.1.1",
-    "popper.js": "^1.16.1"
-  }
+    "name": "repo-bootstrap",
+    "version": "1.0.0",
+    "description": "Coursera Bootstra",
+    "main": "index.html",
+    "scripts": {
+        "dev": "lite-server",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "scss": "node-sass -o css/ css/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Vallejose/Repo-Bootstrap.git"
+    },
+    "author": "Sebastian Vallejo",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Vallejose/Repo-Bootstrap/issues"
+    },
+    "homepage": "https://github.com/Vallejose/Repo-Bootstrap#readme",
+    "devDependencies": {
+        "lite-server": "^2.5.4",
+        "node-sass": "^4.14.1"
+    },
+    "dependencies": {
+        "bootstrap": "^4.5.3",
+        "jquery": "^3.5.1",
+        "open-iconic": "^1.1.1",
+        "popper.js": "^1.16.1"
+    }
 }
