@@ -1,0 +1,35 @@
+@yellow: #f2ee1f;
+@black: #000000;
+
+.margenes(@top:0px, @bottom: 0px){
+    margin-top: @top;
+    margin-bottom: @bottom;
+}
+.jumbotron {
+    background-color:@yellow;
+    .margenes(10px, 0px);
+}
+  
+  .footer {
+    color: rgba(255, 255, 255, 0.753);
+    padding: 10px 10px 0 10px;
+    background-color: @black;
+    .margenes(0px, 20px);
+    }
+  
+  .card-producto {
+    flex: 1 200px;
+    .margenes(5px, 10px); }
+  
+  .btn-reserva {
+    width: 100%;
+    border-radius: 0px; }
+  
+  .footer-sites {
+    padding: 20px; }
+  
+  .footer-addrress-icon {
+    padding-right: 10px; }
+  
+  .tab-content {
+    padding-top: 10px; }
