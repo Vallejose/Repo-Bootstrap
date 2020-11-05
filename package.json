@@ -8,7 +8,7 @@
         "start": "concurrently \"npm run watch:scss\" \"npm run dev \"",
         "test": "echo \"Error: no test specified\" && exit 1",
         "scss": "node-sass -o css/ css/",
-        "watch:scss": "onchange 'css/*.scss' -- npm run scss",
+        "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
         "clean": "rimraf dist",
         "imagemin": "imagemin images/* --out-dir dist/images",
         "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html && usemin about.html -d dist --htmlmin -o dist/about.html && usemin contacto.html -d dist --htmlmin -o dist/contacto.html && usemin precios.html -d dist --htmlmin -o dist/precios.html",
