@@ -21,6 +21,8 @@ $(function() {
 
     $('#contacto').on('hide.bs.modal', function(e) {
         console.log('el modal se esta ocultando');
+        $('#contactoBtn').removeClass('btn-primary');
+        $('#contactoBtn').addClass('btn-outline-success');
         $('#contactoBtn').prop('disabled', false);
     });
 
